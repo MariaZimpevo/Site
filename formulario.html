@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário Aqui</h1> 
+    <form>
+      <!--entrada do tipo texto-->
+      <label for="campo nome">Nome</label>
+      <input id="campo nome" type="text" placeholder="Digite seu nome" required>
+      <br><br>
+
+      <label for="campo sobre-nome">Sobre-Nome</label>
+      <input id="campo sobre-nome" type="text" placeholder="Digite seu sobre-nome" required>
+      <br><br>
+
+      <!--entrada do tipo senha-->
+      <label for="senha">Senha</label>
+      <input id="senha" type="password" placeholder="Digite sua senha" required>
+      <br><br>
+
+      <!--entrada do tipo email-->
+      <label for="email">Nome</label>
+      <input id="email" type="email" placeholder="Digite seu email" required>
+      <br><br>
+      <h2>Escolha um Animal</h2>
+      <!--entrada do tipo radio que te dá a opção de uma única escolha-->
+      <input type="radio" id="cat" name="animal" value="gato"><label for="cat">Gato</label> <br><br>
+      <input type="radio" id="dog" name="animal" value="cão"><label for="dog">cão</label> <br><br>
+      <input type="radio" id="bird" name="animal" value="passarinho"><label for="bird">passarinho</label> <br><br>
+
+      <h3>O que você tem na cozinha</h3>
+      <!--entrada do tipo checkbox que te dá a opção de múltiplas escolhas-->
+      <input type="checkbox" id="Item1" name="Item1" value="Fogão a gás"><label for="Item1">Fogão a gás</label>
+      <input type="checkbox" id="Item2" name="Item2" value="Arca"><label for="Item2">Arca</label>
+      <br><br>
+
+      <h3>Seleciona uma cor</h3>
+      <!--select(famoso comboBox)-->
+      <select>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Preta">Preta</option>
+            <option value="Azul">Azul</option>
+            <option value="Sinza">Sinza</option>
+            <option value="Castanha">Castanha</option>
+            <option value="Verde">Verde</option>
+            
+      </select><br><br>
+
+      <h4>Digite um texto</h4>
+      <!--tag textarea pra texto longo-->
+      <textarea rows="20" cols="100" placeholder="Fale um pouco de ti"></textarea><br><br>
+      <!--entrada do tipo submit-->
+      <input type="submit" value="Enviar">
+    </form><hr><br>
+    <a href="index.html">Voltar para a principal</a>
+
+</body>
+</html>
